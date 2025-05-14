@@ -10,30 +10,32 @@
 - Relatórios de progresso simples
 
 ## 2. Estruturação do Repositório
-- Inicializar repositório Git privado
-- Criar arquivos auxiliares: plano_acao.md, contexto_projeto.md, cursor_rules, prompt/snippet
+- [x] Inicializar repositório Git privado
+- [x] Criar arquivos auxiliares: plano_acao.md, contexto_projeto.md, cursor_rules, prompt/snippet
 
 ## 3. Configuração do Backend
-- Estruturar API RESTful com Node.js/Express
-- Modelagem do banco de dados PostgreSQL
-- Implementar autenticação (JWT + OAuth Google)
-- Endpoints para tarefas, recompensas, usuários, XP/níveis
+- [x] Estruturar pastas iniciais do backend (Node.js/Express)
+- [x] Atualizar Node.js para versão 20+
+- [x] Criar arquivos iniciais (index.js, db.js)
+- [ ] Modelagem e criação do banco de dados PostgreSQL (em andamento)
+- [ ] Implementar autenticação (JWT + OAuth Google)
+- [ ] Endpoints para tarefas, recompensas, usuários, XP/níveis
 
 ## 4. Configuração do Mobile
-- Inicializar projeto React Native (Expo)
-- Implementar telas de login/cadastro
-- Tela de cadastro/listagem de tarefas
-- Tela de cadastro/listagem de recompensas
-- Tela de progresso/relatórios
-- Integração com backend
+- [ ] Inicializar projeto React Native (Expo)
+- [ ] Implementar telas de login/cadastro
+- [ ] Tela de cadastro/listagem de tarefas
+- [ ] Tela de cadastro/listagem de recompensas
+- [ ] Tela de progresso/relatórios
+- [ ] Integração com backend
 
 ## 5. Testes e Ajustes
-- Testes locais no Android
-- Ajustes de UX/UI conforme boas práticas mobile
+- [ ] Testes locais no Android
+- [ ] Ajustes de UX/UI conforme boas práticas mobile
 
 ## 6. Documentação e Versionamento
-- Manter documentação atualizada no repositório
-- Atualizar arquivo de contexto a cada alteração relevante
+- [x] Manter documentação atualizada no repositório
+- [x] Atualizar arquivo de contexto a cada alteração relevante
 
 ---
 
@@ -48,4 +50,10 @@
 ### Entregáveis
 - MVP funcional no Android
 - Backend documentado e testado
-- Documentação de uso e contexto 
+- Documentação de uso e contexto
+
+---
+
+#### Última atualização: [preencher com data atual]
+- Última ação concluída: Criação do banco de dados e tabelas no PostgreSQL (arquivo schema.sql gerado, banco mindsy_app criado).
+- Próxima ação: Implementar autenticação (JWT + OAuth Google). 

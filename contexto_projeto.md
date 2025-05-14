@@ -28,6 +28,8 @@ Inicialmente uso pessoal, mas com arquitetura escalável para múltiplos usuári
 - Banco de dados local (PostgreSQL) para desenvolvimento
 - Front-end web será desenvolvido separadamente no futuro
 - Ferramentas e bibliotecas open-source e gratuitas
+- Node.js atualizado para versão 20+
+- Modelagem de banco de dados definida e em implementação
 
 ## Premissas
 - Execução local, compatível com Linux
@@ -37,4 +39,8 @@ Inicialmente uso pessoal, mas com arquitetura escalável para múltiplos usuári
 
 ---
 
-Este arquivo deve ser atualizado sempre que houver mudanças relevantes no escopo, stack ou decisões do projeto. 
+Este arquivo deve ser atualizado sempre que houver mudanças relevantes no escopo, stack ou decisões do projeto.
+
+#### Última atualização: [preencher com data atual]
+- Última ação concluída: Criação do banco de dados e tabelas no PostgreSQL (arquivo schema.sql gerado, banco mindsy_app criado).
+- Próxima ação: Implementar autenticação (JWT + OAuth Google). 
