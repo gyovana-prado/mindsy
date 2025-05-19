@@ -41,6 +41,6 @@ Inicialmente uso pessoal, mas com arquitetura escalável para múltiplos usuári
 
 Este arquivo deve ser atualizado sempre que houver mudanças relevantes no escopo, stack ou decisões do projeto.
 
-#### Última atualização: [preencher com data atual]
-- Última ação concluída: Criação do banco de dados e tabelas no PostgreSQL (arquivo schema.sql gerado, banco mindsy_app criado).
-- Próxima ação: Implementar autenticação (JWT + OAuth Google). 
+#### Última atualização: 2024-06-08
+- Última ação concluída: Integração das funcionalidades principais do MVP mobile (autenticação, tarefas, recompensas, progresso). Trabalho pausado para retomada posterior.
+- Próxima ação: Retomar testes locais no Android e ajustes de UX/UI conforme boas práticas mobile. 

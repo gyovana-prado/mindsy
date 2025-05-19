@@ -18,7 +18,7 @@
 - [x] Atualizar Node.js para versão 20+
 - [x] Criar arquivos iniciais (index.js, db.js)
 - [ ] Modelagem e criação do banco de dados PostgreSQL (em andamento)
-- [ ] Implementar autenticação (JWT + OAuth Google)
+- [x] Implementar autenticação (JWT + OAuth Google)
 - [ ] Endpoints para tarefas, recompensas, usuários, XP/níveis
 
 ## 4. Configuração do Mobile
@@ -54,6 +54,6 @@
 
 ---
 
-#### Última atualização: [preencher com data atual]
-- Última ação concluída: Criação do banco de dados e tabelas no PostgreSQL (arquivo schema.sql gerado, banco mindsy_app criado).
-- Próxima ação: Implementar autenticação (JWT + OAuth Google). 
+#### Última atualização: 2024-06-08
+- Última ação concluída: Integração das funcionalidades principais do MVP mobile (autenticação, tarefas, recompensas, progresso). Trabalho pausado para retomada posterior.
+- Próxima ação: Retomar testes locais no Android e ajustes de UX/UI conforme boas práticas mobile. 

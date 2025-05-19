@@ -1,0 +1,5 @@
+# Regras do Cursor para Mindsy
+
+- Sempre atualizar os arquivos plano_acao.md, contexto_projeto.md, cursor_rules e prompt_snippet a cada alteração que impacte diretamente o escopo, progresso ou regras do projeto. 
+
+- Em caso de pausa do trabalho, registrar no contexto_projeto.md e plano_acao.md o status e o próximo passo. Ao retomar, iniciar pelos testes locais no Android e ajustes de UX/UI. 
