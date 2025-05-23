@@ -6,7 +6,6 @@
 - Cadastro de recompensas com meta de pontos
 - Sistema de XP, níveis e boosts
 - Tracking de tarefas finalizadas/em andamento
-- Notificações locais (Android)
 - Relatórios de progresso simples
 
 ## 2. Estruturação do Repositório
@@ -17,21 +16,22 @@
 - [x] Estruturar pastas iniciais do backend (Node.js/Express)
 - [x] Atualizar Node.js para versão 20+
 - [x] Criar arquivos iniciais (index.js, db.js)
-- [ ] Modelagem e criação do banco de dados PostgreSQL (em andamento)
+- [x] Modelagem e criação do banco de dados PostgreSQL
 - [x] Implementar autenticação (JWT + OAuth Google)
-- [ ] Endpoints para tarefas, recompensas, usuários, XP/níveis
+- [x] Endpoints para tarefas, recompensas, usuários, XP/níveis
+- [x] Endpoint GET /api/tasks implementado
 
-## 4. Configuração do Mobile
-- [ ] Inicializar projeto React Native (Expo)
-- [ ] Implementar telas de login/cadastro
-- [ ] Tela de cadastro/listagem de tarefas
-- [ ] Tela de cadastro/listagem de recompensas
-- [ ] Tela de progresso/relatórios
-- [ ] Integração com backend
+## 4. Configuração do Frontend Web
+- [x] Inicializar projeto React (Vite)
+- [x] Implementar telas de login/cadastro
+- [x] Tela de cadastro/listagem de tarefas
+- [x] Tela de cadastro/listagem de recompensas
+- [x] Tela de progresso/relatórios
+- [x] Integração com backend
 
 ## 5. Testes e Ajustes
-- [ ] Testes locais no Android
-- [ ] Ajustes de UX/UI conforme boas práticas mobile
+- [ ] Testes locais no navegador
+- [ ] Ajustes de UX/UI conforme boas práticas web
 
 ## 6. Documentação e Versionamento
 - [x] Manter documentação atualizada no repositório
@@ -43,17 +43,16 @@
 1. Backend e autenticação
 2. Cadastro/listagem de tarefas e recompensas
 3. Sistema de XP, níveis e boosts
-4. Notificações locais
-5. Relatórios de progresso
-6. Ajustes de UX/UI
+4. Relatórios de progresso
+5. Ajustes de UX/UI
 
 ### Entregáveis
-- MVP funcional no Android
+- MVP funcional web
 - Backend documentado e testado
 - Documentação de uso e contexto
 
 ---
 
 #### Última atualização: 2024-06-08
-- Última ação concluída: Integração das funcionalidades principais do MVP mobile (autenticação, tarefas, recompensas, progresso). Trabalho pausado para retomada posterior.
-- Próxima ação: Retomar testes locais no Android e ajustes de UX/UI conforme boas práticas mobile. 
+- Última ação concluída: Implementação do endpoint GET /api/tasks e limpeza de arquivos mobile.
+- Próxima ação: Testes finais e ajustes de UX/UI conforme boas práticas web. 
